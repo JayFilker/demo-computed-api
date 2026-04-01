@@ -1,20 +1,19 @@
 {
   "name": "demo-computed-api",
   "version": "1.0.0",
+  "description": "Supabase CRUD API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+    "vercel-build": "echo 'Building...'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@supabase/supabase-js": "^2.101.1",
-    "cors": "^2.8.6",
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "uuid": "^13.0.0"
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@supabase/supabase-js": "^2.39.0",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.3.1"
   }
 }
